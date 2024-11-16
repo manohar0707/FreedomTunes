@@ -1,1 +1,1 @@
-https://github.com/manohar0707/FreedomTunes
+This music player featuring Indian patriotic songs is a dedicated platform designed to evoke the spirit of nationalism and pride among listeners. It offers a curated collection of iconic tracks that celebrate India's rich cultural heritage, freedom struggle, and the values of unity and diversity
