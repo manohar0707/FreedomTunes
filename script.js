@@ -2,7 +2,7 @@ console.log("Welcome to Freedom Tunes");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');//default song
+let audioElement = new Audio('1.mp3');//default song
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -12,7 +12,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     {songName: "Vande Mataram - AR Rahaman", filePath: "1.mp3", coverPath: "1.jpeg"},
     {songName: "Jai Ho - AR Rahaman", filePath: "2.mp3", coverPath: "2.jpeg"},
-    {songName: "Desh Mere-Arjith Singh", filePath: "songs/3.mp3", coverPath: "3.jpeg"},
+    {songName: "Desh Mere-Arjith Singh", filePath: "3.mp3", coverPath: "3.jpeg"},
     {songName: "Maa Tujhe Salaam- AR Rahaman", filePath: "4.mp3", coverPath: "4.jpeg"},
     {songName: "Chak De! India - SRK", filePath: "5.mp3", coverPath: "5.jpeg"},
     {songName: "Ae Watan -Arjit Singh", filePath: "6.mp3", coverPath: "6.jpg"},
