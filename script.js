@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Vande Mataram - AR Rahaman", filePath: "songs/1.mp3", coverPath: "covers/1.jpeg"},
-    {songName: "Jai Ho - AR Rahaman", filePath: "songs/2.mp3", coverPath: "covers/2.jpeg"},
-    {songName: "Desh Mere-Arjith Singh", filePath: "songs/3.mp3", coverPath: "covers/3.jpeg"},
-    {songName: "Maa Tujhe Salaam- AR Rahaman", filePath: "songs/4.mp3", coverPath: "covers/4.jpeg"},
-    {songName: "Chak De! India - SRK", filePath: "songs/5.mp3", coverPath: "covers/5.jpeg"},
-    {songName: "Ae Watan -Arjit Singh", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Leha Ra Do - Arjith Singh", filePath: "songs/7.mp3", coverPath: "covers/7.jpeg"},
-    {songName: "Jana Gana Mana", filePath: "songs/8.mp3", coverPath: "covers/8.jpeg"},
-    {songName: "India wale", filePath: "songs/9.mp3", coverPath: "covers/9.jpeg"},
-    {songName: "Sare Jahan Se Achcha", filePath: "songs/10.mp3", coverPath: "covers/10.jpeg"},
+    {songName: "Vande Mataram - AR Rahaman", filePath: "1.mp3", coverPath: "1.jpeg"},
+    {songName: "Jai Ho - AR Rahaman", filePath: "2.mp3", coverPath: "2.jpeg"},
+    {songName: "Desh Mere-Arjith Singh", filePath: "songs/3.mp3", coverPath: "3.jpeg"},
+    {songName: "Maa Tujhe Salaam- AR Rahaman", filePath: "4.mp3", coverPath: "4.jpeg"},
+    {songName: "Chak De! India - SRK", filePath: "5.mp3", coverPath: "5.jpeg"},
+    {songName: "Ae Watan -Arjit Singh", filePath: "6.mp3", coverPath: "6.jpg"},
+    {songName: "Leha Ra Do - Arjith Singh", filePath: "7.mp3", coverPath: "7.jpeg"},
+    {songName: "Jana Gana Mana", filePath: "8.mp3", coverPath: "8.jpeg"},
+    {songName: "India wale", filePath: "9.mp3", coverPath: "9.jpeg"},
+    {songName: "Sare Jahan Se Achcha", filePath: "10.mp3", coverPath: "10.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
